@@ -21,6 +21,8 @@ public class ElectrodomesticoService {
         int base = 1000;
         Electrodomestico e = new Electrodomestico(1000, color, consumo, peso );       
         
+        precioFinal(e);
+        
         return e;
     }
     

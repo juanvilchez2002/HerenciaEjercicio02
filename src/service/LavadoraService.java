@@ -13,7 +13,7 @@ public class LavadoraService extends ElectrodomesticoService{
     public Lavadora crearLavadora(){
         ElectrodomesticoService es = new ElectrodomesticoService();
         Electrodomestico e = es.crearElectrodomestico();
-        es.precioFinal(e);
+        //es.precioFinal(e);
         
         Lavadora l = new Lavadora();
         l.setColor(e.getColor());

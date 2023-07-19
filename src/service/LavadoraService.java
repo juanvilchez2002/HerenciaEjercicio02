@@ -30,4 +30,6 @@ public class LavadoraService extends ElectrodomesticoService{
         System.out.println(l.getPrecio());
         return l;
     }
+    
+    
 }
